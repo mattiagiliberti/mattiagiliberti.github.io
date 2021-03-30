@@ -2,13 +2,15 @@
 <html>
 
 <head>
-	<title>Mattia Giovanni Giliberti</title>
+	<title>Home - Mattia Giovanni Giliberti</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="images/png" sizes="16x16" href="images/favicon-16x16.png">
 
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -17,42 +19,45 @@
 
 <body class="is-preload landing">
 	<div id="page-wrapper">
-
 		<!-- Header -->
 		<header id="header">
-			<h1 id="logo"><a href="index.html">Portfolio</a></h1>
+			<div class="logo">
+				<img src="images/logo_bus.png" alt="" height="6%" width="6%">
+			</div>
+
 			<nav id="nav">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li>
 						<a href="#">Progetti</a>
 						<ul>
-							<li><a href="left-sidebar.html">A.S. 2019/2020</a></li>
-							<li><a href="right-sidebar.html">A.S. 2020/2021</a></li>
-							<li><a href="no-sidebar.html">A.S. 2021/2022</a></li>
+							<li><a href="as2020.html">A.S. 2019/2020</a></li>
+							<li><a href="as2021.html">A.S. 2020/2021</a></li>
 						</ul>
 					</li>
-					<li><a href="elements.html">Chi sono</a></li>
+					<li><a href="about.html">Chi sono</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<!-- Banner -->
-		<section id="banner">
-			<div class="content">
-				<header>
-					<h2>Mattia Giovanni Giliberti</h2>
-					<!--I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere.
-				Microsoft isn't evil, they just make really crappy operating systems.
-				I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere.
-				Non c'è linguaggio in cui sia difficile scrivere cattiviprogrammi.-->
-					<p>C makes it easy to shoot yourself in the foot;<br />
-						C++ makes it harder, but when you do, it blows your whole leg off.</p>
-				</header>
-				<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+		<div class="intro">
+			<div class="intro-content display-table" style="width:100%">
+				<div class="table-cell">
+					<div class="container">
+						<h3 class="intro-title">Mattia Giovanni Giliberti</h3>
+						<p class="intro-subtitle"><span class="text-slider-items">C makes it easy to shoot yourself in the foot,C++ makes it harder,but when you do,it blows your whole leg off</span><strong class="text-slider"></strong></p>
+					</div>
+				</div>
 			</div>
-			<a href="#one" class="goto-next scrolly">Next</a>
-		</section>
+		</div>
+
+		<!--I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere.
+		Microsoft isn't evil, they just make really crappy operating systems.
+		Non c'è linguaggio in cui sia difficile scrivere cattivi programmi.
+		C makes it easy to shoot yourself in the foot,C++ makes it harder,but when you do,it blows your whole leg off-->
+		<a href="#one" class="goto-next scrolly">Next</a>
+
 
 		<!-- One -->
 		<section id="one" class="spotlight style1 bottom">
@@ -80,41 +85,29 @@
 							</header>
 						</div>
 						<div class="col-8 col-12-medium">
-							<p class="title-s">Skills</p>
-							<span style="color:white">HTML</span>
-							<div style="display:inline;padding-left:30px">
-								90
-								<progress value="90" aria-valuenow="90" max="100" style="width: 80%;">
-								</progress>
-							</div>
-							<br>
-							<span style="color:white">JS</span>
-							<div style="display:inline;padding-left:30px">
-
-								<progress value="90" aria-valuenow="90" max="100" style="width: 80%;">
-								</progress>
-							</div>
-
-							<span style="color:white">JS</span>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-							</div>
-
-							<span style="color:white">JAVA</span>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-							</div>
-
-							<span style="color:white">C++</span>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+							<div class="skill-mf">
+								<p class="title-s">Skill</p>
+								<span>HTML5</span> <span class="pull-right">85%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<span>CSS3</span> <span class="pull-right">70%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<span>C++</span> <span class="pull-right">90%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<span>JAVASCRIPT</span> <span class="pull-right">75%</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<a href="#two" class="goto-next scrolly">Next</a>
+				<a href="#two" class="goto-next scrolly">Next</a>
 		</section>
 
 		<!-- Two -->
@@ -122,12 +115,12 @@
 			<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 			<div class="content">
 				<header>
-					<h2>Interdum amet non magna accumsan</h2>
-					<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+					<h2>Monta Smonta <br> A.S. 2019/2020</h2>
+					<p>L'anno della "distanza"</p>
 				</header>
-				<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+				<p>Monta Smonta è un progetto realizzato il terzo anno di superiori nella quale si scopre come è realizzato un computer e quali sono le sue componenti. </p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn More</a></li>
+					<li><a href="#" class="button">Scopri di più</a></li>
 				</ul>
 			</div>
 			<a href="#three" class="goto-next scrolly">Next</a>
@@ -149,61 +142,12 @@
 			<a href="#four" class="goto-next scrolly">Next</a>
 		</section>
 
-		<!-- Four -->
-		<section id="four" class="wrapper style1 special fade-up">
-			<div class="container">
-				<header class="major">
-					<h2>Accumsan sed tempus adipiscing blandit</h2>
-					<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
-				</header>
-				<div class="box alt">
-					<div class="row gtr-uniform">
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-chart-area"></span>
-							<h3>Ipsum sed commodo</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-comment"></span>
-							<h3>Eleifend lorem ornare</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-flask"></span>
-							<h3>Cubilia cep lobortis</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-paper-plane"></span>
-							<h3>Non semper interdum</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-file"></span>
-							<h3>Odio laoreet accumsan</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-						<section class="col-4 col-6-medium col-12-xsmall">
-							<span class="icon solid alt major fa-lock"></span>
-							<h3>Massa arcu accumsan</h3>
-							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-						</section>
-					</div>
-				</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="#" class="button">Magna sed feugiat</a></li>
-					</ul>
-				</footer>
-			</div>
-		</section>
-
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="mailto:marechiaromattia17@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="https://www.instagram.com/marechiaromattia17/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/mattiagiliberti" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="mailto:marechiaromattia17@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 		</footer>
 	</div>
@@ -212,16 +156,27 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/main.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/typed.js/typed.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script type="text/javascript">
+		/*--/ Star Typed /--*/
+		if ($('.text-slider').length == 1) {
+			var typed_strings = $('.text-slider-items').text();
+			var typed = new Typed('.text-slider', {
+				strings: typed_strings.split(','),
+				typeSpeed: 80,
+				loop: true,
+				backDelay: 1100,
+				backSpeed: 30
+			});
+		}
+	</script>
 
 </body>
 
