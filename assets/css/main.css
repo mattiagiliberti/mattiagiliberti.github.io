@@ -229,6 +229,7 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
   color: #e44c65 !important;
   border-bottom-color: transparent;
 }
